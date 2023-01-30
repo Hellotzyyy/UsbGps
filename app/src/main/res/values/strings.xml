@@ -121,14 +121,15 @@
     <string name="about_copyright_2">Copyright (C) 2010-2013 Herbert von Broeuschmeul</string>
     <string name="about_copyright_3">Copyright (C) 2010-2013 BluetoothGPS4Droid Project</string>
     <string name="about_copyright_4">Copyright (C) 2011-2013 UsbGPS4Droid Project</string>
+    <string name="about_copyright_5">Copyright (C) 2023-2023 桃之夭 汉化</string>
     <string name="about_app_desc">Usb GPS for Android is an application
                                     for using an external usb GPS on Android devices.
     </string>
-    <string name="about_license">It is open source software 
+    <string name="about_license">这是一个开源的软件 
     	distributed free of charge under the terms of the <a href="http://www.gnu.org/licenses/gpl-3.0-standalone.html"><b>GNU General Public License</b></a>.
     </string>
-    <string name="about_sources">The source code is available here:
-        https://github.com/freshollie/UsbGps4Droid
+    <string name="about_sources">源代码可在此处获得:
+https://github.com/freshollie/UsbGps4Droid
     </string>
 
     <string name="msg_no_location_permission">No permission given for device location. Click here to enable.</string>
@@ -157,9 +158,9 @@
 
     <string name="info_activity_title">UsbGps - Overview</string>
 
-    <string name="pref_start_on_boot_summary_on">USB Gps 服务将在 android 启动时尝试启动</string>
-    <string name="pref_start_on_boot_summary_off">USB Gps 服务不会在 android 启动时尝试启动</string>
-    <string name="pref_start_on_boot_title">USB Gps 服务不会在 android 启动时尝试启动</string>
+    <string name="pref_start_on_boot_summary_on">USB GPS 服务将在 Android 启动时尝试启动</string>
+    <string name="pref_start_on_boot_summary_off">USB PS 服务不会在 Android 启动时尝试启动</string>
+    <string name="pref_start_on_boot_title">USB GPS 服务不会在 Android 启动时尝试启动</string>
 
     <string name="pref_category_device_title">设备</string>
     <string name="pref_category_service_title">服务</string>
