@@ -23,35 +23,35 @@
 <resources>
     <string name="app_name">UsbGps</string>
 
-    <string name="pref_start_gps_title">Start/Stop GPS</string>
-    <string name="pref_start_gps_summary_off">Usb GPS is off</string>
-    <string name="pref_start_gps_summary_on">Usb GPS is on</string>
-    <string name="pref_start_gps_params_title">GPS Options (SiRF)</string>
-    <string name="pref_gps_location_provider_title">Location provider options</string>
-    <string name="pref_gps_location_provider_summary">Usb GPS will replace internal GPS</string>
-    <string name="pref_replace_std_gps_title">Replace internal GPS</string>
+    <string name="pref_start_gps_title">启动/停止 GPS</string>
+    <string name="pref_start_gps_summary_off">启动/停止 GPS</string>
+    <string name="pref_start_gps_summary_on">USB GPS 已打开</string>
+    <string name="pref_start_gps_params_title">GPS 选项 （SiRF）</string>
+    <string name="pref_gps_location_provider_title">位置提供程序选项</string>
+    <string name="pref_gps_location_provider_summary">USB GPS将取代内部GPS</string>
+    <string name="pref_replace_std_gps_title">替换内部 GPS</string>
 
-    <string name="pref_replace_std_gps_summary">Disable the internal GPS and </string>
+    <string name="pref_replace_std_gps_summary">禁用内部 GPS 和 </string>
 
-    <string name="pref_force_enable_provider_title">Auto-enable location provider</string>
-    <string name="pref_force_enable_provider_summary_on">Auto-enable the location provider, even if it has been disabled</string>
-    <string name="pref_force_enable_provider_summary_off">Auto-enable the location provider only if it doesn\'t exist yet</string>
-    <string name="pref_mock_gps_name_title">Mock location provider name</string>
-    <string name="pref_mock_gps_name_summary">Usb GPS name: %s</string>
-    <string name="pref_connection_retries_title">Connection retry number</string>
-    <string name="pref_connection_retries_summary">Number of attempts before exiting: %s</string>
-    <string name="pref_recording_title">Enable/Disable NMEA log</string>
+    <string name="pref_force_enable_provider_title">自动启用位置提供程序</string>
+    <string name="pref_force_enable_provider_summary_on">自动启用位置提供程序，即使它已被禁用</string>
+    <string name="pref_force_enable_provider_summary_off">仅当位置提供程序不存在时才自动启用它</string>
+    <string name="pref_mock_gps_name_title">模拟位置提供程序名称</string>
+    <string name="pref_mock_gps_name_summary">Usb GPS 名称: %s</string>
+    <string name="pref_connection_retries_title">模拟位置提供程序名称</string>
+    <string name="pref_connection_retries_summary">退出前的尝试次数: %s</string>
+    <string name="pref_recording_title">启用/禁用 NMEA 日志</string>
     <string name="pref_recording_summary">Record the USB GPS Location data</string>
     <string name="pref_recording_params_title">Recording parameters</string>
     <string name="pref_trackfile_prefix_title">Trackfiles prefix</string>
     <string name="pref_trackfile_prefix_summary">Select the prefix for the track files</string>
     <string name="pref_trackfile_directory_title">Trackfiles directory</string>
     <string name="pref_trackfile_directory_summary">Select the directory for the track files</string>
-    <string name="pref_gps_device_title">Choose Usb GPS</string>
-    <string name="pref_gps_device_summary">"Current device: %s"</string>
-    <string name="pref_gps_device_speed_title">Choose GPS device speed</string>
-    <string name="pref_gps_device_speed_summary">"Current speed: %s"</string>
-    <string name="pref_about_title">About</string>
+    <string name="pref_gps_device_title">选择USB GPS</string>
+    <string name="pref_gps_device_summary">"当前设备: %s"</string>
+    <string name="pref_gps_device_speed_title">选择GPS设备速度</string>
+    <string name="pref_gps_device_speed_summary">"当前速度: %s"</string>
+    <string name="pref_about_title">关于</string>
     <string name="pref_about_summary"></string>
 
     <string name="pref_sirf_gps_title">SiRF GPS</string>
@@ -89,18 +89,18 @@
     <string name="pref_enable_static_navigation_summary_off">Static Navigation disabled</string>
     <string name="pref_enable_static_navigation_summary_on">Static Navigation enabled</string>
 
-    <string name="msg_gps_provider_started">Usb GPS... started</string>
-    <string name="msg_gps_provider_stopped">Usb GPS... stopped</string>
-    <string name="msg_gps_provider_already_started">Usb GPS... is already on</string>
+    <string name="msg_gps_provider_started">Usb GPS... 已开始</string>
+    <string name="msg_gps_provider_stopped">Usb GPS... 已停止</string>
+    <string name="msg_gps_provider_already_started">Usb GPS...已打开</string>
     <string name="msg_gps_provider_stopped_by_problem">"Cannot start: %s"</string>
     <string name="msg_two_many_connection_problems">Too many connection problems</string>
-    <string name="msg_gps_provider_disabled">GPS is disabled</string>
-    <string name="msg_gps_provider_cant_connect">Unable to connect to device</string>
+    <string name="msg_gps_provider_disabled">GPS 已禁用</string>
+    <string name="msg_gps_provider_cant_connect">无法连接到设备</string>
 
-    <string name="msg_mock_location_disabled">Mock locations disabled in settings</string>
-    <string name="msg_mock_location_disabled_full">Mock locations disabled in settings\nClick here to enable mock locations</string>
-    <string name="msg_mock_location_disabled_full_dialog_text">Mock locations disabled in settings\nOpen mock location settings?</string>
-    <string name="msg_usb_provider_device_not_connected">Device not connected</string>
+    <string name="msg_mock_location_disabled">在设置中禁用模拟位置</string>
+    <string name="msg_mock_location_disabled_full">设置中禁用的模拟位置，单击此处启用模拟位置</string>
+    <string name="msg_mock_location_disabled_full_dialog_text">设置中禁用了模拟位置，打开模拟位置设置？</string>
+    <string name="msg_usb_provider_device_not_connected">设备未连接</string>
     <string name="msg_nmea_recording_started">GPS NMEA recording... started</string>
     <string name="msg_nmea_recording_stopped">GPS NMEA recording... stopped</string>
     <string name="msg_nmea_recording_already_started">GPS track recording... is already on</string>
@@ -145,40 +145,40 @@
         <item>115200</item>
     </string-array>
 
-    <string name="title_activity_settings">Usb Gps Settings</string>
+    <string name="title_activity_settings">USB GPS 设置</string>
 
     <string name="pref_toast_logging_title">Show Toasts</string>
     <string name="pref_toast_logging_summary">Show debug toast messages on USB Gps status changes</string>
 
-    <string name="number_of_satellites_placeholder">Number of satellites: %s</string>
-    <string name="accuracy_placeholder">Accuracy: %s</string>
-    <string name="location_placeholder">Location: Lat %1$s, Lon %2$s</string>
-    <string name="elevation_placeholder">Altitude: %s</string>
+    <string name="number_of_satellites_placeholder">卫星数量: %s</string>
+    <string name="accuracy_placeholder">精度: %s</string>
+    <string name="location_placeholder">位置: Lat %1$s, Lon %2$s</string>
+    <string name="elevation_placeholder">海拔: %s</string>
 
     <string name="info_activity_title">UsbGps - Overview</string>
 
-    <string name="pref_start_on_boot_summary_on">Usb Gps service will try and start when android starts</string>
-    <string name="pref_start_on_boot_summary_off">Usb Gps service will not try and start when android starts</string>
-    <string name="pref_start_on_boot_title">Start service on boot</string>
+    <string name="pref_start_on_boot_summary_on">USB Gps 服务将在 android 启动时尝试启动</string>
+    <string name="pref_start_on_boot_summary_off">USB Gps 服务不会在 android 启动时尝试启动</string>
+    <string name="pref_start_on_boot_title">USB Gps 服务不会在 android 启动时尝试启动</string>
 
-    <string name="pref_category_device_title">Device</string>
-    <string name="pref_category_service_title">Service</string>
+    <string name="pref_category_device_title">设备</string>
+    <string name="pref_category_service_title">服务</string>
     <string name="pref_category_sirf_title">SiRF</string>
     <string name="pref_category_nmea_log_title">NMEA Log</string>
     <string name="pref_category_debug_title">Debug</string>
     <string name="pref_category_other">Other</string>
     <string name="pref_set_time_key">setTime</string>
-    <string name="pref_set_time_summary_on">Set the system time to the gps time when a time is received</string>
-    <string name="pref_set_time_summary_off">Don\'t set the system time to the gps time</string>
-    <string name="pref_set_time_title">Set system time from GPS (Root required)</string>
+    <string name="pref_set_time_summary_on">将系统时间设置为接收时间时的 GPS 时间</string>
+    <string name="pref_set_time_summary_off">不要将系统时间设置为 GPS 时间</string>
+    <string name="pref_set_time_title">从 GPS 设置系统时间（需root）</string>
     <string name="pref_category_about_title">About</string>
     <string name="warning_set_time_needs_su">Set time function needs SU permission</string>
-    <string name="warning_no_developer_options">Developer options need to be enabled first</string>
+    <string name="warning_no_developer_options">需要先启用开发人员选项</string>
     <string name="gps_time_placeholder">Gps Time: %1$s\nSys Time: %2$s</string>
     <string name="button_open_mock_location_settings">Open mock location settings</string>
     <string name="error_location_permission_required">Location permission is required for UsbGps to function</string>
     <string name="error_storage_permission_required">In order to write a track file, the app needs storage permission</string>
-    <string name="settings_button_title">Settings</string>
+    <string name="settings_button_title">设置</string>
     <string name="pref_start_on_boot_summary">If enabled, the USB GPS service will be automatically started on boot</string>
     <string name="pref_set_time_summary">Set the system time from the received GPS time</string>
     <string name="pref_daynight_theme_title">Automatic day-night app theme</string>
