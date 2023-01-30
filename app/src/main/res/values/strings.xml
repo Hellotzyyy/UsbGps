@@ -122,9 +122,6 @@
     <string name="about_copyright_3">Copyright (C) 2010-2013 BluetoothGPS4Droid Project</string>
     <string name="about_copyright_4">Copyright (C) 2011-2013 UsbGPS4Droid Project</string>
     <string name="about_copyright_5">Copyright (C) 2023-2023 桃之夭 汉化</string>
-    <string name="about_app_desc">Usb GPS for Android is an application
-                                    for using an external usb GPS on Android devices.
-    </string>
     <string name="about_license">这是一个开源的软件 
     	distributed free of charge under the terms of the <a href="http://www.gnu.org/licenses/gpl-3.0-standalone.html"><b>GNU General Public License</b></a>.
     </string>
